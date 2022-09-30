@@ -7,7 +7,7 @@ const localizar = {
 
     BuscarALatELong: function () {
         for (item of this.latELong) {
-            return `https://www.google.com/maps/search/${item.Latitude},${item.longitude}`
+            return `https://www.google.com/maps/search/${item.Latitude},${item.longitude}`// link do google maps 
         }
     }
 }
