@@ -12,6 +12,10 @@ const localizar = {
             rua: "Wells",
             numero: "89835"
         }],
+    cep: [
+        {
+            localizacaoViacep: "3512201"
+        }],
 
     BuscarALatELong: function () {
         for (item of this.latELong) {
@@ -22,9 +26,16 @@ const localizar = {
         for (item of this.endereco) {
             return `https://www.google.com/maps/search/R.+${item.rua},+${item.numero}+-+${item.cidade}+-+${item.estado}`;// link do google maps 
         }
+    },
+    BuscarCep: function () {
+        for (item of this.cep) {
+            return `https://www.google.com/maps/search/${item.localizacaoViacep}`;// link do google maps 
+        }
     }
 };
 
 console.log(localizar.BuscarALatELong());
 
 console.log(localizar.BuscarEndereco());
+
+console.log(localizar.BuscarCep());
