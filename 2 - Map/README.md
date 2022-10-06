@@ -7,10 +7,10 @@
 Através do google maps conseguimos obter varias localizações e endereços . 
 Para obter estas localizações é necesário que seja ela atraves de endereços ,cep , latitudes e longitudes . 
 
-```javascript=
+
 Ao complementar os requisitos necessários e rodar o codigo 
 você obterá o link de acesso da localização através do Google Maps .
-```
+
 
  .
 
