@@ -34,8 +34,8 @@ const localizar = {
     }
 };
 
-console.log(localizar.BuscarALatELong());
+console.log(localizar.BuscarALatELong());// resultado pela latitude e longitude 
 
-console.log(localizar.BuscarEndereco());
+console.log(localizar.BuscarEndereco()); // resultado pelo endereço 
 
-console.log(localizar.BuscarCep());
+console.log(localizar.BuscarCep()); // resultado pelo cep 
