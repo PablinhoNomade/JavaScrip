@@ -10,7 +10,7 @@
  *3- ContagemProgressiva&Regressiva
  *4- Ordem ABC
 
-Lembre-se o seu futuro só depende de você.
+Lembre-se o seu futuro só depende de você!
 
 ---
 
